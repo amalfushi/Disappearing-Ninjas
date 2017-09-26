@@ -1,8 +1,8 @@
 $(document).ready(function(){
     $('.ninja').click(function(){
-        $(this).hide();
+        $(this).fadeOut();
     });
     $('button').click(function(){
-        $('.ninja').show();
+        $('.ninja').fadeIn();
     });
 });
